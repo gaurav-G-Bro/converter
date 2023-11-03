@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Converter App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gaurav">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div class="container">
+        	<div class="left-container">
+        		<h1>Temperature Converter</h1>
+        		<div class="input-box">
+        			<h2>Temperature in Celsius</h2>
+        			<form>
+        				<input type="number" id="celsius" placeholder="">
+        				<h2>Temperature in Fahrenheit</h2>
+        				<input type="number" id="fahrenheit"  placeholder="">
+        			</form>
+        		</div>
+        	</div>
+
+
+        	<div class="right-container">
+        		<h1>Units Converter</h1>
+                <div class="input-box2">
+                    <form id="unitsOfLength">
+                        <h2>From Unit</h2>
+                        <select id="length1">
+                            <option value="Choose" class="choose-bold">Choose...</option>
+                            <option value="Millimetre">Millimetre</option>
+                            <option value="Centimeter">Centimeter</option>
+                            <option value="Decimeter">Decimeter</option>
+                            <option value="Meter">Meter</option>
+                            <option value="kilometer">Kilometer</option>
+                            <option value="inch">inch</option>
+                            <option value="Foot">Foot</option>
+                            <option value="Yard">Yard</option>
+                            <option value="Mile">Mile</option>
+                            <option value="NauticalMile">Nautical Mile</option>
+                        </select>
+                       <input type="text" id="lengthUnit1" placeholder="">
+
+                       <h2>To Unit</h2>
+                        <select id="length2">
+                            <option value="Choose" class="choose-bold">Choose...</option>
+                            <option value="Millimetre">Millimetre</option>
+                            <option value="Centimeter">Centimeter</option>
+                            <option value="Decimeter">Decimeter</option>
+                            <option value="Meter">Meter</option>
+                            <option value="kilometer">Kilometer</option>
+                            <option value="inch">inch</option>
+                            <option value="Foot">Foot</option>
+                            <option value="Yard">Yard</option>
+                            <option value="Mile">Mile</option>
+                            <option value="NauticalMile">Nautical Mile</option>
+                        </select>
+                        <input type="text" id="lengthUnit2" placeholder="">
+                    </form>
+                </div>
+        	</div>
+        </div>
+
+
+
+         <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

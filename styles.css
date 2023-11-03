@@ -1,0 +1,147 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	background: #517664;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.left-container, .right-container {
+	flex-basis: 50%;
+	height: 90vh;
+	margin: 2%;
+	background: #fff;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 1.2rem;
+
+}
+
+.left-container h1,.right-container h1 {
+	text-align: center;
+	color: #fff;
+	padding: 0.5rem;
+	background: black;
+	letter-spacing: 2px;
+}
+
+.left-container {
+	position: relative;
+}
+
+.input-box {
+	width: 80%;
+	height: auto;
+	padding: 1rem;
+	background: #6F8F72;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	border-radius: 1.2rem;
+  	text-align: center;
+}
+
+h2 {
+	padding: 1rem;
+}
+
+input[placeholder]{
+	padding: 0.7rem;
+	width: 90%;
+	margin: auto;
+	border-radius: 1rem;
+	outline: none;
+	border: 1px solid gray;
+	font-size: 1rem;
+}
+
+@media(max-width: 852px){
+	.container{
+		height: 150vh;
+	}
+	.input-box {
+		width: 90%;
+	}
+
+	h1,h2 {
+		font-size: 1.2rem;
+	}
+}
+
+@media(max-width : 768px){
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.input-box {
+		margin-top: 3%;
+		width: 90%;
+	}
+}
+
+
+/*Unit converter Css code starts here*/
+
+.input-box2 {
+	width: 80%;
+	height: auto;
+	padding: 1rem;
+	background: #6F8F72;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	border-radius: 1.2rem;
+}
+
+.right-container {
+	position: relative;
+}
+
+#unitsOfLength {
+	display: flex;
+	flex-direction: column;
+}
+
+#length1 {
+	border: none;
+	outline: none;
+	padding: 0.7rem;
+	border-radius: 1rem;
+	margin: auto;
+	width: 90%;
+}
+
+#length2 {
+	border: none;
+	outline: none;
+	padding: 0.7rem;
+	margin: auto;
+	border-radius: 1rem;
+	width: 90%;
+}
+
+#unitsOfLength h2 {
+	text-align: center;
+}
+
+#lengthUnit1, #lengthUnit2 {
+	margin-top: 3%;
+}
+
+.choose-bold {
+	font-weight: bold;
+}
