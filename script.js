@@ -567,7 +567,7 @@ select2.addEventListener('change', function(){
 			input1.value = inp/3280.8399;
 		}
 		else if((select2.value == "Foot") && (select1.value == "inch")){
-			input1.value = inp/12;
+			input1.value = inp*12;
 		}
 		else if((select2.value == "Foot") && (select1.value == "Foot")){
 			input1.value = inp;
